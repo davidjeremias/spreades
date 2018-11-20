@@ -1,4 +1,4 @@
-import { Component, OnInit, Input } from '@angular/core';
+import { Component, OnInit, Input, ViewChild } from '@angular/core';
 
 @Component({
   selector: 'app-input-group',
@@ -9,11 +9,12 @@ export class InputGroupComponent implements OnInit {
 
   @Input() label: string;
  
+  @ViewChild('nome') nome: HTMLElement;
 
   constructor() { }
 
   ngOnInit() {
-    console.log(this.label);
+    console.log(this.nome);
   }
 
 }
