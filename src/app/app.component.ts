@@ -6,9 +6,9 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent implements OnInit{
-  lbl: string = "Email:";
+  nome: string = "Nome:";
+  email: string = "Email:"
 
   ngOnInit(){
-    console.log(this.lbl);
   }
 }
