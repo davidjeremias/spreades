@@ -2,8 +2,8 @@
     <form >
     <div class="form-group">
         <label for="texto">{{label}}</label>
-        <input type="text" id="texto" class="form-control" [(ngModel)]="inp" [ngModelOptions]="{standalone: true}">
-        <p *ngIf="validacao()"><span style="color: red">{{req}}</span></p>
+        <input type="text" id="texto" class="form-control" [(ngModel)]="inp" [ngModelOptions]="{standalone: true}" placeholder="Informe {{label}}">
+        <p *ngIf="validacao()"><span style="color: red; font-size: 12px">{{req}}</span></p>
     </div>
 </form>
 </div>
