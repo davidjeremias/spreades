@@ -1,7 +1,8 @@
 
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
-import {BrowserAnimationsModule} from '@angular/platform-browser/animations'; 
+import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
+import { FormsModule }   from '@angular/forms'; 
 
 import { AppComponent } from './app.component';
 import { InputGroupModule } from './input-group/input-group.module';
@@ -14,6 +15,7 @@ import { InputGroupModule } from './input-group/input-group.module';
     BrowserModule,
     BrowserAnimationsModule,
     InputGroupModule,
+    FormsModule
     
   ],
   providers: [],
