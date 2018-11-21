@@ -1,6 +1,6 @@
 {
   "name": "spreades",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
@@ -9,9 +9,13 @@
     "lint": "ng lint",
     "e2e": "ng e2e"
   },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/davidjeremias/spreades"
+  },
   "author": "David Jeremias",
   "license": "MIT",
-  "private": true,
+  "private": false,
   "dependencies": {
     "@angular/animations": "^6.1.10",
     "@angular/common": "^6.0.3",
