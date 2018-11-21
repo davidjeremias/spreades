@@ -1,0 +1,1 @@
+export * from './src/app/input-group/input-group.module'
